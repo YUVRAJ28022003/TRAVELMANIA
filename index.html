@@ -15,15 +15,17 @@
         <a href="#" class="logo"><i class="fas fa-hiking"></i> TRAVELMANIA.com
         <nav class="navbar">
             <div id="nav-close" class="fas fa-times"></div>
-            <a href="#home">home</a>
-            <a href="#category">Adventures</a>
-            <a href="#packages">packages</a>
+            <a class="box"
+            href="#home">home</a>
+            <a class="box" href="#category">Adventures</a>
+            <a class="box" href="#packages">packages</a>
             
-            <a href="">Flights</a>
-            <a href="#packages2">hotels</a>
-            <a href="">car rentals</a>
-            <a href="">deals</a>
-            <a href="#contact">contact</a>
+            <a class="box" href="#packages2">hotels</a>
+            <a class="box" href="#flights">Flights</a>
+
+            <a class="box" href="#carrentals">car rentals</a>
+            <a class="box" href="#deals">deals</a>
+            <a class="box" href="#contact">contact</a>
         </nav>
         <div class="icons">
             <div id="menu-btn" class="fas fa-bars"></div> 
@@ -61,33 +63,43 @@
         <div class="box-container">
     
             <div class="box">
-                <img src="images/category-1.jpg" alt="">
-                <h3>bungee jump</h3>
-                <p>Bungee jumping is an activity that involves a person jumping from a great height while connected to a large elastic cord.</p>
-                <a href="https://en.wikipedia.org/wiki/Bungee_jumping" class="btn">read more</a>
+                <div class="image">
+                    <img src="images/category-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>bungee jump</h3>
+                    <p>Bungee jumping is an activity that involves a person jumping from a great height while connected to a large elastic cord.</p>
+                    <a href="https://en.wikipedia.org/wiki/Bungee_jumping" class="btn">read more</a>
+                </div>
+               
             </div>
     
             <div class="box">
-                <img src="images/category-2.jpg" alt="">
-                <h3>zip lines</h3>
-                <p>A zip-line, zip line, zip-wire, or flying fox is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.</p>
-                <a href="https://en.wikipedia.org/wiki/Zip_line" class="btn">read more</a>
+                <div class="image">
+                    <img src="images/category-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>zip lines</h3>
+                    <p>A zip-line, zip line, zip-wire, or flying fox is a pulley suspended on a cable, usually made of stainless steel, mounted on a slope.</p>
+                    <a href="https://en.wikipedia.org/wiki/Zip_line" class="btn">read more</a>
+                </div>
+
             </div>
     
             <div class="box">
-                <img src="images/category-3.jpg" alt="">
-                <h3>Canoeing</h3>
-                <p>Canoeing is an activity which involves paddling a canoe with a single-bladed paddle.</p>
-                <a href="https://en.wikipedia.org/wiki/Canoeing" class="btn">read more</a>
+                <div class="image">
+                    <img src="images/category-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Canoeing</h3>
+                    <p>Canoeing is an activity which involves paddling a canoe with a single-bladed paddle.</p>
+                    <a href="https://en.wikipedia.org/wiki/Canoeing" class="btn">read more</a>
+                </div>
             </div>
-    
         </div>
-    
     </section>
     <section class="packages" id="packages">
-
         <h1 class="heading">popular packages</h1>
-    
         <div class="box-container">
     
             <div class="box">
@@ -248,9 +260,90 @@
 
 </section>
 
-<section class="packages2" id="packages2">
+<section class="flights" id="flights">
 
-    <h1 class="heading">featured hotels recommended for you</h1>
+    <h1 class="heading">FLIGHT OFFERS FOR YOU </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <div class="image">
+                <img src="images/farm.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>FARM & POOL PARTY</h3>
+                <div class="price">Rs 5,999 - Rs 8,999</div>
+                <a href="#contact" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/villa.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Villa </h3>
+                
+                <div class="price">Rs 7,999 - Rs 12,999</div>
+                <a href="#contact" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/oyo-hotels.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>Super OYO Flagship Hotel </h3>
+                
+                <div class="price">Rs 1,999 - Rs 6,999</div>
+                <a href="#contact" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/5-star.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>5 star hotels</h3>
+                
+                <div class="price">Rs 25,999 - Rs45,999</div>
+                <a href="#contact" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/4-star.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>4 star hotels</h3>
+                
+                <div class="price">Rs 20,999 - Rs 35,999</div>
+                <a href="#contact" class="btn">explore now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="image">
+                <img src="images/3-star.jpg" alt="">
+            </div>
+            <div class="content">
+                <h3>3 star hotels</h3>
+               
+                <div class="price">Rs 10,000 - Rs 25,000</div>
+                <a href="#contact" class="btn">explore now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="carrentals" id="packages2">
+
+    <h1 class="heading">REnt Your Cars</h1>
 
     <div class="box-container">
 
@@ -329,87 +422,8 @@
 
 </section>
 
-<section class="packages2" id="packages2">
 
-    <h1 class="heading">featured hotels recommended for you</h1>
-
-    <div class="box-container">
-
-        <div class="box">
-            <div class="image">
-                <img src="images/farm.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>FARM & POOL PARTY</h3>
-                <div class="price">Rs 5,999 - Rs 8,999</div>
-                <a href="#contact" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/villa.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Villa </h3>
-                
-                <div class="price">Rs 7,999 - Rs 12,999</div>
-                <a href="#contact" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/oyo-hotels.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>Super OYO Flagship Hotel </h3>
-                
-                <div class="price">Rs 1,999 - Rs 6,999</div>
-                <a href="#contact" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/5-star.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>5 star hotels</h3>
-                
-                <div class="price">Rs 25,999 - Rs45,999</div>
-                <a href="#contact" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/4-star.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>4 star hotels</h3>
-                
-                <div class="price">Rs 20,999 - Rs 35,999</div>
-                <a href="#contact" class="btn">explore now</a>
-            </div>
-        </div>
-
-        <div class="box">
-            <div class="image">
-                <img src="images/3-star.jpg" alt="">
-            </div>
-            <div class="content">
-                <h3>3 star hotels</h3>
-               
-                <div class="price">Rs 10,000 - Rs 25,000</div>
-                <a href="#contact" class="btn">explore now</a>
-            </div>
-        </div>
-
-    </div>
-
-</section>
-    <section class="contact" id="contact">
+<section class="contact" id="contact">
     
     <div class="wrapper1">
         <div class="title1">
@@ -435,7 +449,7 @@
     </section>
     <section class="footer">
 
-        <div class="box-container">
+        <div class="box-container1">
     
             <div class="box">
                 <h3>Quick links</h3>
@@ -454,7 +468,7 @@
             <div class="box">
                 <h3>contact info</h3>
                 <a href="tel:+919576224006"> <i class="fas fa-phone"></i> +91 9576224006 </a>
-                <a href="mailto: yuvraj28022003@gmail.com"> <i class="fas fa-envelope"></i> yuvraj28022003@gmail.com </a>
+                <a href="mailto: yuvraj28022003@gmail.com"> <i class="fas fa-envelope"></i> yuvraj28022003@gmail.com</a>
                 <a href="#"> <i class="fas fa-map"></i> MOHALI, India - 140307 </a>
             </div>
     
