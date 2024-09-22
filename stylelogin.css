@@ -6,7 +6,27 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 9%;
+    z-index: 1000;
+    display: flex;
+    font-size: small;
+    align-items: center;
+  }
 
+.header .logo  {
+  margin-right: auto;
+  font-size: 2.5rem;
+  color: rgb(237, 234, 234);
+  font-weight: bolder;
+}
+i {
+    color: rgb(119, 181, 119);
+  }
 body{
     background-color: green;
     background: linear-gradient(to left, #cbd2cb, green);
